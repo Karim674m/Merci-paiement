@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paiement échoué</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe6e6;
+      color: #cc0000;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    a {
+      color: #cc0000;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid #cc0000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 30px;
+    }
+    a:hover {
+      background-color: #cc0000;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Paiement échoué</h1>
+  <p>Malheureusement, votre paiement n’a pas pu être traité.</p>
+  <p>Merci de vérifier vos informations ou de réessayer ultérieurement.</p>
+  <a href="https://ton-site-ou-page-de-paiement.com">Réessayer le paiement</a>
+</body>
+</html>
